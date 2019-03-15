@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0.4 (Python 3.7.0 on win32)" generated="20190226 17:07:36.229">
+<suite id="s1" name="Test" source="C:\selenium\he\Test">
+<suite id="s1-s1" name="Test" source="C:\selenium\he\Test\Test.robot">
+<test id="s1-s1-t1" name="hjkfhg">
+<kw name="OPen" library="Common" type="setup">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>https://www.facebook.com/</arg>
+<arg>gc</arg>
+</arguments>
+<msg timestamp="20190226 17:07:36.385" level="INFO">Opening browser 'gc' to base url 'https://www.facebook.com/'.</msg>
+<status status="PASS" starttime="20190226 17:07:36.385" endtime="20190226 17:08:04.049"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20190226 17:08:04.049" endtime="20190226 17:08:05.178"></status>
+</kw>
+<status status="PASS" starttime="20190226 17:07:36.385" endtime="20190226 17:08:05.178"></status>
+</kw>
+<kw name="Login" library="login">
+<arguments>
+<arg>${hi1}</arg>
+</arguments>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="u_0_j"]</arg>
+<arg>${gyihj[0]}</arg>
+</arguments>
+<msg timestamp="20190226 17:08:05.179" level="INFO">Typing text 'hjkhjhkjh' into text field '//*[@id="u_0_j"]'.</msg>
+<status status="PASS" starttime="20190226 17:08:05.179" endtime="20190226 17:08:14.129"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="u_0_l"]</arg>
+<arg>${gyihj[1]}</arg>
+</arguments>
+<msg timestamp="20190226 17:08:14.130" level="INFO">Typing text 'hjhg' into text field '//*[@id="u_0_l"]'.</msg>
+<status status="PASS" starttime="20190226 17:08:14.129" endtime="20190226 17:08:14.201"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="u_0_o"]</arg>
+<arg>${gyihj[2]}</arg>
+</arguments>
+<msg timestamp="20190226 17:08:14.201" level="INFO">Typing text 'gjfdkhgjfg' into text field '//*[@id="u_0_o"]'.</msg>
+<status status="PASS" starttime="20190226 17:08:14.201" endtime="20190226 17:08:14.298"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="u_0_v"]</arg>
+<arg>${gyihj[3]}</arg>
+</arguments>
+<msg timestamp="20190226 17:08:14.299" level="INFO">Typing text 'fgfh' into text field '//*[@id="u_0_v"]'.</msg>
+<status status="PASS" starttime="20190226 17:08:14.299" endtime="20190226 17:08:14.362"></status>
+</kw>
+<kw name="Select From List By Value" library="Selenium2Library">
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<arguments>
+<arg>//*[@id="day"]</arg>
+<arg>${gyihj[4]}</arg>
+</arguments>
+<msg timestamp="20190226 17:08:14.363" level="INFO">Selecting options from selection list '//*[@id="day"]' by value 1.</msg>
+<status status="PASS" starttime="20190226 17:08:14.362" endtime="20190226 17:08:14.442"></status>
+</kw>
+<kw name="Select From List By Value" library="Selenium2Library">
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<arguments>
+<arg>//*[@id="month"]</arg>
+<arg>${gyihj[5]}</arg>
+</arguments>
+<msg timestamp="20190226 17:08:14.442" level="INFO">Selecting options from selection list '//*[@id="month"]' by value 1.</msg>
+<status status="PASS" starttime="20190226 17:08:14.442" endtime="20190226 17:08:14.513"></status>
+</kw>
+<kw name="Select From List By Value" library="Selenium2Library">
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<arguments>
+<arg>//*[@id="year"]</arg>
+<arg>${gyihj[6]}</arg>
+</arguments>
+<msg timestamp="20190226 17:08:14.514" level="INFO">Selecting options from selection list '//*[@id="year"]' by value 2017.</msg>
+<status status="PASS" starttime="20190226 17:08:14.513" endtime="20190226 17:08:14.592"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="u_0_a"]</arg>
+</arguments>
+<msg timestamp="20190226 17:08:14.593" level="INFO">Clicking element '//*[@id="u_0_a"]'.</msg>
+<status status="PASS" starttime="20190226 17:08:14.593" endtime="20190226 17:08:14.650"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="u_0_11"]</arg>
+</arguments>
+<msg timestamp="20190226 17:08:14.650" level="INFO">Clicking element '//*[@id="u_0_11"]'.</msg>
+<status status="PASS" starttime="20190226 17:08:14.650" endtime="20190226 17:08:14.736"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20190226 17:08:16.738" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20190226 17:08:14.736" endtime="20190226 17:08:16.738"></status>
+</kw>
+<status status="PASS" starttime="20190226 17:08:05.178" endtime="20190226 17:08:16.738"></status>
+</kw>
+<kw name="Login" library="login">
+<arguments>
+<arg>${hi2}</arg>
+</arguments>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="u_0_j"]</arg>
+<arg>${gyihj[0]}</arg>
+</arguments>
+<msg timestamp="20190226 17:08:16.739" level="INFO">Typing text 'hjkhjhkjh' into text field '//*[@id="u_0_j"]'.</msg>
+<status status="PASS" starttime="20190226 17:08:16.739" endtime="20190226 17:08:16.875"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="u_0_l"]</arg>
+<arg>${gyihj[1]}</arg>
+</arguments>
+<msg timestamp="20190226 17:08:16.875" level="INFO">Typing text 'hjhg' into text field '//*[@id="u_0_l"]'.</msg>
+<status status="PASS" starttime="20190226 17:08:16.875" endtime="20190226 17:08:16.955"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="u_0_o"]</arg>
+<arg>${gyihj[2]}</arg>
+</arguments>
+<msg timestamp="20190226 17:08:16.955" level="INFO">Typing text 'gjfdkhgjfg' into text field '//*[@id="u_0_o"]'.</msg>
+<status status="PASS" starttime="20190226 17:08:16.955" endtime="20190226 17:08:17.031"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="u_0_v"]</arg>
+<arg>${gyihj[3]}</arg>
+</arguments>
+<msg timestamp="20190226 17:08:17.032" level="INFO">Typing text 'fgfh' into text field '//*[@id="u_0_v"]'.</msg>
+<status status="PASS" starttime="20190226 17:08:17.032" endtime="20190226 17:08:17.086"></status>
+</kw>
+<kw name="Select From List By Value" library="Selenium2Library">
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<arguments>
+<arg>//*[@id="day"]</arg>
+<arg>${gyihj[4]}</arg>
+</arguments>
+<msg timestamp="20190226 17:08:17.086" level="INFO">Selecting options from selection list '//*[@id="day"]' by value 1.</msg>
+<status status="PASS" starttime="20190226 17:08:17.086" endtime="20190226 17:08:17.111"></status>
+</kw>
+<kw name="Select From List By Value" library="Selenium2Library">
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<arguments>
+<arg>//*[@id="month"]</arg>
+<arg>${gyihj[5]}</arg>
+</arguments>
+<msg timestamp="20190226 17:08:17.111" level="INFO">Selecting options from selection list '//*[@id="month"]' by value 1.</msg>
+<status status="PASS" starttime="20190226 17:08:17.111" endtime="20190226 17:08:17.134"></status>
+</kw>
+<kw name="Select From List By Value" library="Selenium2Library">
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<arguments>
+<arg>//*[@id="year"]</arg>
+<arg>${gyihj[6]}</arg>
+</arguments>
+<msg timestamp="20190226 17:08:17.134" level="INFO">Selecting options from selection list '//*[@id="year"]' by value 2017.</msg>
+<status status="PASS" starttime="20190226 17:08:17.134" endtime="20190226 17:08:17.180"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="u_0_a"]</arg>
+</arguments>
+<msg timestamp="20190226 17:08:17.180" level="INFO">Clicking element '//*[@id="u_0_a"]'.</msg>
+<status status="PASS" starttime="20190226 17:08:17.180" endtime="20190226 17:08:17.221"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="u_0_11"]</arg>
+</arguments>
+<msg timestamp="20190226 17:08:17.222" level="INFO">Clicking element '//*[@id="u_0_11"]'.</msg>
+<status status="PASS" starttime="20190226 17:08:17.222" endtime="20190226 17:08:17.286"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20190226 17:08:19.288" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20190226 17:08:17.287" endtime="20190226 17:08:19.288"></status>
+</kw>
+<status status="PASS" starttime="20190226 17:08:16.739" endtime="20190226 17:08:19.288"></status>
+</kw>
+<kw name="Login" library="login">
+<arguments>
+<arg>${hi3}</arg>
+</arguments>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="u_0_j"]</arg>
+<arg>${gyihj[0]}</arg>
+</arguments>
+<msg timestamp="20190226 17:08:19.289" level="INFO">Typing text 'hjkhjhkjh' into text field '//*[@id="u_0_j"]'.</msg>
+<status status="PASS" starttime="20190226 17:08:19.289" endtime="20190226 17:08:19.366"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="u_0_l"]</arg>
+<arg>${gyihj[1]}</arg>
+</arguments>
+<msg timestamp="20190226 17:08:19.366" level="INFO">Typing text 'hjhg' into text field '//*[@id="u_0_l"]'.</msg>
+<status status="PASS" starttime="20190226 17:08:19.366" endtime="20190226 17:08:19.423"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="u_0_o"]</arg>
+<arg>${gyihj[2]}</arg>
+</arguments>
+<msg timestamp="20190226 17:08:19.423" level="INFO">Typing text 'gjfdkhgjfg' into text field '//*[@id="u_0_o"]'.</msg>
+<status status="PASS" starttime="20190226 17:08:19.423" endtime="20190226 17:08:19.512"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="u_0_v"]</arg>
+<arg>${gyihj[3]}</arg>
+</arguments>
+<msg timestamp="20190226 17:08:19.512" level="INFO">Typing text 'fgfh' into text field '//*[@id="u_0_v"]'.</msg>
+<status status="PASS" starttime="20190226 17:08:19.512" endtime="20190226 17:08:19.569"></status>
+</kw>
+<kw name="Select From List By Value" library="Selenium2Library">
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<arguments>
+<arg>//*[@id="day"]</arg>
+<arg>${gyihj[4]}</arg>
+</arguments>
+<msg timestamp="20190226 17:08:19.569" level="INFO">Selecting options from selection list '//*[@id="day"]' by value 1.</msg>
+<status status="PASS" starttime="20190226 17:08:19.569" endtime="20190226 17:08:19.596"></status>
+</kw>
+<kw name="Select From List By Value" library="Selenium2Library">
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<arguments>
+<arg>//*[@id="month"]</arg>
+<arg>${gyihj[5]}</arg>
+</arguments>
+<msg timestamp="20190226 17:08:19.597" level="INFO">Selecting options from selection list '//*[@id="month"]' by value 1.</msg>
+<status status="PASS" starttime="20190226 17:08:19.596" endtime="20190226 17:08:19.620"></status>
+</kw>
+<kw name="Select From List By Value" library="Selenium2Library">
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<arguments>
+<arg>//*[@id="year"]</arg>
+<arg>${gyihj[6]}</arg>
+</arguments>
+<msg timestamp="20190226 17:08:19.621" level="INFO">Selecting options from selection list '//*[@id="year"]' by value 2017.</msg>
+<status status="PASS" starttime="20190226 17:08:19.620" endtime="20190226 17:08:19.644"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="u_0_a"]</arg>
+</arguments>
+<msg timestamp="20190226 17:08:19.644" level="INFO">Clicking element '//*[@id="u_0_a"]'.</msg>
+<status status="PASS" starttime="20190226 17:08:19.644" endtime="20190226 17:08:19.687"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="u_0_11"]</arg>
+</arguments>
+<msg timestamp="20190226 17:08:19.687" level="INFO">Clicking element '//*[@id="u_0_11"]'.</msg>
+<status status="PASS" starttime="20190226 17:08:19.687" endtime="20190226 17:08:19.732"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20190226 17:08:21.735" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20190226 17:08:19.732" endtime="20190226 17:08:21.735"></status>
+</kw>
+<status status="PASS" starttime="20190226 17:08:19.289" endtime="20190226 17:08:21.736"></status>
+</kw>
+<kw name="Close" library="Common" type="teardown">
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20190226 17:08:21.738" endtime="20190226 17:08:23.864"></status>
+</kw>
+<status status="PASS" starttime="20190226 17:08:21.737" endtime="20190226 17:08:23.864"></status>
+</kw>
+<status status="PASS" starttime="20190226 17:07:36.385" endtime="20190226 17:08:23.864" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20190226 17:07:36.245" endtime="20190226 17:08:23.864"></status>
+</suite>
+<status status="PASS" starttime="20190226 17:07:36.229" endtime="20190226 17:08:23.880"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Test">Test</stat>
+<stat pass="1" fail="0" id="s1-s1" name="Test">Test.Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
